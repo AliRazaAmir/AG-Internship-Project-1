@@ -1,0 +1,503 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  /* /-------------------- NavBar Started --------------/ */
+  /* Navbar styles */
+    .navbar {
+      background-color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+  
+    .navbar-toggle {
+      display: none;
+      flex-direction: column;
+      cursor: pointer;
+    }
+  
+    .navbar-toggle div {
+      width: 25px;
+      height: 3px;
+      background-color: white;
+      margin: 3px 0;
+    }
+  
+    .navbar-links {
+      list-style: none;
+      display: flex;
+      align-items: center;
+    }
+  
+    .navbar-link {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+  
+    .navbar-link:hover {
+      color: #ddd;
+    }
+  
+    /* Responsive styles */
+    @media screen and (max-width: 768px) {
+      .navbar-toggle {
+        display: flex;
+      }
+  
+      .navbar-links {
+        padding: 20px;
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+        width: 100%;
+      }
+  
+      .navbar-links.active {
+        display: flex;
+      }
+    }
+  
+   .all-but{
+    padding: 10px;
+    font-family: Gilroy;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    background-color: #75bf7a;
+    border-radius: 6px;
+  }
+  /* /-------------------- NavBar End --------------/ */
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    width: 100%;
+    max-width: 1440px;
+  }
+  
+  .main h1 {
+    font-family: Gilroy;
+    font-size: 61px;
+    font-weight: 800;
+    line-height: 66px;
+    letter-spacing: 0em;
+  }
+  
+  .main p {
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .icon-but{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    background-color: black;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  /* /-------------------- Hero Section End --------------/ */
+  .Newsletter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    max-width: 1200px;
+    height: 90px;
+    margin: auto;
+    background-color: #75bf7a;
+    padding: 30px;
+  }
+  .Newsletter p {
+    font-family: Gilroy;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 246px;
+    color: white;
+  }
+  .Newsletter input {
+    width: 499px;
+    height: 40px;
+    border-radius: 4px;
+    padding: 10px;
+  }
+  .Newsletter button {
+    padding: 10px;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+  }
+  /* /-------------------- NewsLetter Section End --------------/ */
+  .text {
+    text-align: center;
+  }
+  .text h1 {
+    margin-top: 50px;
+    font-family: Gilroy;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 50px;
+  }
+  span {
+    color: #75bf7a;
+  }
+  .text p {
+    margin: auto;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    width: 620px;
+    height: 96px;
+  }
+  
+  .main-sec {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px;
+  }
+  .main-text {
+    text-align: right;
+    width: 290px;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .main-text p {
+    width: 290px;
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+  }
+  .main-right {
+    text-align: left;
+    width: 290px;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .main-right p {
+    width: 290px;
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+  }
+  /* /-------------------- Work Section End --------------/ */
+  .tere {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 1px 1px;
+    width: 1060px;
+    height: 250px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 30px;
+  }
+  center{
+    margin-right: 20px;
+    background-color: #75bf7a;
+  }
+  .tere-benefit {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .tere-benefit h1 {
+    font-family: Gilroy;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 119px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #75bf7a;
+  }
+  .tere-benefit h3 {
+    font-family: Gilroy;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 33px;
+    margin-right: 200px;
+  }
+  .tere img {
+    width: 200px;
+  }
+  
+  
+  /* /-------------------- Tere Benefits Section End --------------/ */
+  .footer {
+    background-color: aliceblue;
+  }
+  footer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1440px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 30px;
+  }
+  .footer-list h3 {
+    font-family: Gilroy;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+  }
+  .footer-list li {
+    list-style: none;
+    margin-top: 10;
+    padding-top: 10px;
+  }
+  h4 {
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* /-------------------- Responsive Design --------------/ */
+  
+  @media screen and (max-width: 576px) {
+    
+    .navbar button {
+      display: none;
+    }
+  
+    /* /-------------------- Hero Section Responsive Design --------------/ */
+    .main {
+      display: block;
+      text-align: center;
+    }
+    .main h1 {
+      font-family: Gilroy;
+      width: 320px;
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 37px;
+    }
+    .main p {
+      font-family: Gilroy;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 28px;
+      letter-spacing: 0em;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .right-side img {
+      width: 320px;
+    }
+    .hero-but {
+      display: flex;
+    }
+    .hero-but a {
+      margin-left: 2px;
+    }
+    /* /-------------------- Newsletter Section Responsive Design --------------/ */
+  
+    .Newsletter {
+      width: 320px;
+      height: 200px;
+      display: block;
+    }
+    .Newsletter p {
+      font-family: Gilroy;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 20px;
+      text-align: left;
+      color: black;
+    }
+    .Newsletter input {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      border-radius: 4px;
+      width: 200px;
+      padding: 10px;
+    }
+    .Newsletter button {
+      padding: 10px;
+      width: 200px;
+  
+      font-family: Gilroy;
+      font-size: 18px;
+      font-weight: 500;
+      background-color: black;
+      color: white;
+      border-radius: 6px;
+    }
+    /* /-------------------- work Section Responsive Design --------------/ */
+  
+    .text p {
+      margin: auto;
+      font-family: Gilroy;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      width: 310px;
+      height: 96px;
+    }
+    .main-text {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .main-right {
+      text-align: center;
+    }
+    /* /-------------------- tere Section Responsive Design --------------/ */
+  .tere{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .tere-benefit h1 {
+    font-family: Gilroy;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 80px;
+    
+    text-align: left;
+    color: #75bf7a;
+  }
+  .tere-benefit h3 {
+    font-family: Gilroy;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-right: 200px;
+  }
+  
+  
+    /* /-------------------- footer Section Responsive Design --------------/ */
+  
+    footer {
+      display: block;
+      text-align: center;
+    }
+    .footer-list h3 {
+      margin-top: 20px;
+    }
+    footer img {
+      margin-top: 20px;
+    }
+  }
+  
+  
+  @media screen and (max-width: 576px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+     display: block;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      display: block;
+      text-align: left;
+    }
+  }
+  
+  
+  .navbar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .nav-links {
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      display: none;
+    }
+  
+    .nav-links.active {
+      display: flex;
+    }
+  
+    .nav-links li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .navbar {
+      flex-direction: column;
+    }
+  
+    .logo {
+      margin-bottom: 20px;
+    }
+  
+    .menu-icon {
+      cursor: pointer;
+      font-size: 24px;
+    }
+  }
